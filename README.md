@@ -10,8 +10,10 @@ Un potager est découpé en plusieurs parcelles. Sur chaque parcelle, le jardini
 # Captures d'écrans et fonctionnement
 
 1. Splash Screen :
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
 
-![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185139.png "Splash Screen")
+
+![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185139.png =250x250)
 
 
 2. Vue sur les parcelles :
