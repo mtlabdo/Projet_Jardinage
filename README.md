@@ -9,5 +9,15 @@ Un potager est découpé en plusieurs parcelles. Sur chaque parcelle, le jardini
 
 # Captures d'écrans et fonctionnement
 
-- Splash Screen :
+1. Splash Screen :
+
 ![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185139.png "Splash Screen")
+
+
+2. Vue sur les parcelles :
+
+Dans chacune des parcelles, le jardinier peut planter :
+* un chemin qui n'est là que pour le décor représenté par de la terre,
+* du gazon qui est là pour montrer une parcelle qui ne récolte rien.
+* une seule plante depuis son catalogue de plantes
+![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185206.png "Liste des parcelles")
