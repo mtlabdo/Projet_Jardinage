@@ -20,4 +20,19 @@ Dans chacune des parcelles, le jardinier peut planter :
 * un chemin qui n'est là que pour le décor représenté par de la terre,
 * du gazon qui est là pour montrer une parcelle qui ne récolte rien.
 * une seule plante depuis son catalogue de plantes
+
 ![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185206.png "Liste des parcelles")
+
+
+3. Liste des plants :
+
+les plants décrits par plusieurs paramètres :
+* un nom.
+* une année de création.
+* une image.
+* un type : légume fruit, légume fleur, légume feuille, légume racine.
+* un moment optimal de plantation.
+* la durée avant récolte.
+* ...
+![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185245.png "Liste des parcelles")
+
