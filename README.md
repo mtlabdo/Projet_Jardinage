@@ -11,8 +11,7 @@ Un potager est découpé en plusieurs parcelles. Sur chaque parcelle, le jardini
 
 1. Splash Screen :
 
-![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185139.png){:height="50%" width="50%"}
-
+<img src="https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185139.png" width="400" height="790">
 
 2. Vue sur les parcelles :
 
