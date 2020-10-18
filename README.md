@@ -9,4 +9,4 @@ Un potager est découpé en plusieurs parcelles. Sur chaque parcelle, le jardini
 
 # Captures d'écrans et fonctionnement
 
-![alt text]()
+![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185139.png "Splash Screen")
