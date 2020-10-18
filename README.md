@@ -40,7 +40,8 @@ les plants décrits par plusieurs paramètres :
 4. Plantation :
 * Planter la plante dans une parcelle
 
-![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185303.png "Planter")
+<img src="https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185303.png" width="400" height="790">
+
 
 5. Agenda :
 * Nombre de jours restant avant la récolte
