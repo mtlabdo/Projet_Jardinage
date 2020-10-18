@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/potagersFragment"
+            android:title="Potagers"
+            app:showAsAction="always"
+            android:orderInCategory="1"
+            android:icon="@drawable/shovel"/>
+
+
+        <item android:id="@+id/plantsFragments"
+            android:title="Plants"
+            app:showAsAction="always"
+            android:orderInCategory="2"
+            android:icon="@drawable/plant"/>
+
+        <item android:id="@+id/agendaFragment"
+            android:title="Agenda"
+            app:showAsAction="always"
+            android:orderInCategory="2"
+            android:icon="@drawable/survey"/>
+
+
+    </group>
+
+
+</menu>

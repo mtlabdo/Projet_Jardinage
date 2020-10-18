@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<data>
+    <variable
+        name="plant"
+        type="com.abdessamad.jardinage.PlantModel"></variable>
+    <variable
+        name="parcelle"
+        type="com.abdessamad.jardinage.ParcelModel"></variable>
+</data>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abdessamad.jardinage.ListParcelles_Fragment"
+    android:background="#664338"
+    >
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/parcelles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

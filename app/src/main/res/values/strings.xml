@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Jardinage</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titlePlants">Liste de Plants</string>
+    <string name="titlePotagers">Liste de Potagers</string>
+    <string name="titleParcelles">Liste de Parcelles</string>
+    <string name="titleAgenda">Agenda</string>
+    <string name="titleAddPotager">Ajoute un potager</string>
+
+    <string-array name="forme">
+        <item name="forme1">2X3</item>
+        <item name="forme2">2X2</item>
+    </string-array>
+
+    <string-array name="types">
+        <item name="typ1">légume fruit</item>
+        <item name="typ2">légume fleur</item>
+        <item name="typ3">légume feuille</item>
+        <item name="typ4">légume racine</item>
+    </string-array>
+
+
+</resources>

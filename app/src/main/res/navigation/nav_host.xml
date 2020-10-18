@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/splashFragment">
+
+
+    <fragment
+        android:id="@+id/AjoutePotagerFragment"
+        android:name="com.abdessamad.jardinage.AjoutePotagerFragment"
+        android:label="fragment_add_potager"
+        tools:layout="@layout/frg_potager_ajoute">
+        <argument
+            android:name="id"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/parcellesFragment"
+        android:name="com.abdessamad.jardinage.ListParcelles_Fragment"
+        android:label="ParcellesFragment"
+        tools:layout="@layout/frg_list_parcelle">
+
+        <argument
+            android:name="forme"
+            android:defaultValue="0"
+            app:argType="string" />
+        <argument
+            android:name="idPotager"
+            android:defaultValue="0"
+            app:argType="integer" />
+
+        <argument
+            android:name="idPlant"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="idParcelle"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_parcellesFragment_to_plantsFragments2"
+            app:destination="@id/plantsFragments" />
+
+    </fragment>
+
+
+
+
+    <fragment
+        android:id="@+id/plantsFragment"
+        android:name="com.abdessamad.jardinage.Plants_frgmnt_viewPager"
+        android:label="fragment_plants"
+        tools:layout="@layout/frg_list_plants">
+        <argument
+            android:name="idPlant"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="idParcelle"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/agendaFragment"
+        android:name="com.abdessamad.jardinage.Fragments.Calendrier"
+        android:label="agendaFragment" />
+
+
+
+    <fragment
+        android:id="@+id/plantsFragments"
+        android:name="com.abdessamad.jardinage.PlantsTabList"
+        android:label="layout_pl"
+        tools:layout="@layout/layout_pl">
+
+        <argument
+            android:name="idPlant"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="idParcelle"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_plantsFragment_to_parcellesFragment"
+            app:destination="@id/parcellesFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/parcellesFragment"
+            app:popUpToInclusive="true"
+            />
+        <action
+            android:id="@+id/action_plantsFragments_to_parcellesFragment"
+            app:destination="@id/parcellesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.abdessamad.jardinage.SplashFragment"
+        android:label="splash_screen"
+        tools:layout="@layout/splash_screen" >
+        <action
+            android:id="@+id/action_splashFragment_to_potagersFragment"
+            app:destination="@id/potagersFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/potagersFragment"
+        android:name="com.abdessamad.jardinage.PotagersFragment"
+        android:label="PotagersFragment">
+
+        <action
+            android:id="@+id/action_potagersFragment_to_parcellesFragment"
+            app:destination="@id/parcellesFragment"
+            />
+        <action
+            android:id="@+id/action_potagersFragment_to_AjoutePotagerFragment"
+            app:destination="@id/AjoutePotagerFragment" />
+        <action
+            android:id="@+id/action_potagersFragment_to_agendaFragment"
+            app:destination="@id/agendaFragment" />
+
+    </fragment>
+
+
+</navigation>
