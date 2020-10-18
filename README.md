@@ -36,3 +36,13 @@ les plants décrits par plusieurs paramètres :
 * ...
 ![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185245.png "Liste des parcelles")
 
+
+4. Plantation :
+* Planter la plante dans une parcelle
+
+![alt text](https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185303.png "Planter")
+
+5. Agenda :
+* Nombre de jours restant avant la récolte
+
+https://github.com/mtlabdo/Projet_Jardinage/blob/master/screenshots/device-2020-10-18-185324.png
