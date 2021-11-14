@@ -33,6 +33,7 @@ public class AjoutePotagerFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getActivity().setTitle("Ajouter potager");
+
         super.setHasOptionsMenu(true);
         viewModel = ViewModelProviders.of(this).get(PotagerViewModel.class);
         viewModel.setDao(AppDatabase.getDataBase().potagerDao());
