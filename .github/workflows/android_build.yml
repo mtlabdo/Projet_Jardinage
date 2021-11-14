@@ -8,7 +8,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
+
+      - name: Restore Cache
+        uses: actions/cache@v2
+        with:
+          path: |
+          ~/.gradle/caches
+          ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+          restore-keys:
+            ${{ runner.os }}-gradle-
 
       - name: Set Up JDK
         uses: actions/setup-java@v1
@@ -20,3 +30,6 @@ jobs:
 
       - name: Build Project
         run: ./gradlew assemble
+
+      - name: Assemble Debug
+        run: ./gradlew assembleDebug
